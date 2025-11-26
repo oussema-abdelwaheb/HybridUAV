@@ -101,10 +101,4 @@ yl2 = ylim;
 text(t1/2,      yl2(2)*0.85, 'CLIMB',  'FontWeight','bold', 'HorizontalAlignment','center');
 text((t1+t2)/2, yl2(2)*0.85, 'CRUISE', 'FontWeight','bold', 'HorizontalAlignment','center');
 text((t2+t3)/2, yl2(2)*0.85, 'DESCENT','FontWeight','bold', 'HorizontalAlignment','center');
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Final formatting
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%tightfig; % If missing, MATLAB ignores it without error.
-
 end
